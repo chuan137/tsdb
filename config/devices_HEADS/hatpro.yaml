@@ -1,0 +1,21 @@
+instrument_number:  80
+device_number:  a
+device_name:    hatpro_la1
+device_type:    netcdf
+device_file:    dataset/test/HEADS/080/
+
+- sensor: &id001
+  device: abc
+  name:   vapour
+  dimension:    1
+  descrip:      nothing
+
+- sensor: &id002
+  device:  ab
+  name:  ddd
+  dimension: 2
+  first_axis: TK
+  second_axis: DD
+  second_dimension_size: 110
+      
+- sensor: &id003
