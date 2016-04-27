@@ -1,3 +1,4 @@
 
+.PHONY: server
 server:
-	gunicorn -c config/gunicorn.py tsdb.flaskr:app
+	gunicorn -c server/gunicorn.py server.flaskr:app
