@@ -1,4 +1,4 @@
 
 .PHONY: server
 server:
-	gunicorn -c server/gunicorn.py server.flaskr:app
+	gunicorn -c server/gunicorn.py server.flaskserver:app

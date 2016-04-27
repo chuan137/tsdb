@@ -1,2 +1,6 @@
-host: localhost
-keyspace: HEADS
+host: [ ipecluster6 ]
+keyspace: system
+
+host: [ localhost ]
+keyspace: system
+
